@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+body {
+	background-color:#FFFFFF;
+	font-family:Verdana,sans-serif;
+	
+}
+
+header {
+	padding: 1em;
+    color: #FFFFFF;
+    background-color: #4183D7;
+    clear: both;
+    text-align: center;
+	border-radius: 8px;
+	font-size: 40px;
+	font-weight: bold;
+
+}
+
+footer {
+    padding: 1em;
+    color: black;
+    background-color: #4183D7;
+    clear: both;
+    text-align: center;
+	border-radius: 8px;
+}
+
+nav {
+    float: top;
+    margin: 0;
+    padding: 1em;
+	
+}
+
+#menubar {
+    width: 90%;
+    height: 35px;
+    font-size: 25px;
+    text-align: center;
+    background-color: #4183D7;
+    border-radius: 8px;
+}
+
+#menubar ul {
+	height:auto;
+	padding:8px 0px;
+	margin: 0px;
+}
+
+#menubar li {
+	display:inline;
+	padding:20px;
+}
+
+#menubar a {
+	text-decoration:none;
+	color:#00F;
+	padding: 8px 8px 8px 8px;
+}
+
+#menubar a:hover{
+	color:gray;
+	background-color:white;
+}
+
+
+article {
+    margin-left: 50px;
+    padding: 0em;
+    overflow: hidden;
+	width: 55%;
+	height: 350px;
+	text-align:center;
+	
+}
+
+#Gallery {
+	margin-left: 10px;
+	margin-right: 10px;
+    padding: 0em;
+    overflow: hidden;
+	width: 100%;
+	height: 950px;
+	text-align:center;
+}
+
+section {
+	margin-left: 50px;
+    padding: 0em;
+    overflow: hidden;
+	width: 55%;
+	height: 550px;
+	text-align:center;
+}
+
+#InformationBlock {
+	margin-left: 50px;
+    padding: 0em;
+    overflow: hidden;
+	width: 55%;
+	height: 750px;
+	text-align:center;
+}
+
+
+
+#Signup {
+	margin-left: 50px;
+    padding: 0em;
+    overflow: hidden;
+	width: 55%;
+	height: 500px;
+}
+
+aside {
+	float: right;
+	padding-right: 50px;
+	overflow: hidden;
+	width: 40%;
+	height: 900px;
+	text-align: center;
+	
+}
+
+.thumbnails {
+	height: 80px;
+	padding: 1px;
+	margin: 0 10px 10px 0;
+	
+}
+
+.thumbnails img:hover {
+	border: 0px solid #00ccff;
+	cursor:pointer;
+}
+
+.preview img {
+	border: 4px solid #444;
+	padding: 1px;
+	height: 600px;
+}
+
+#lure {
+	border: 4px solid #444;
+	padding: 1px;
+	height: 450px;
+}
+
+#lure2 {
+	border: 4px solid #444;
+	padding: 1px;
+	height: 450px;
+}
+
+ #leaderboard {
+	 margin-left: 50px;
+	 
+}
+	
+	
